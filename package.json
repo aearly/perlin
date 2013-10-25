@@ -1,0 +1,36 @@
+{
+  "name": "perlin",
+  "version": "0.0.0",
+  "description": "2D Multi-colored Perlin Noise generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/aearly/perlin.git"
+  },
+  "keywords": [
+    "perlin",
+    "noise",
+    "canvas"
+  ],
+  "author": "Alexander Early <alexander.early@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/aearly/perlin/issues"
+  },
+  "devDependencies": {
+    "grunt-browserify": "~1.2.9",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-cli": "~0.1.9",
+    "grunt": "~0.4.1",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.1.1",
+    "grunt-contrib-connect": "~0.5.0"
+  },
+  "dependencies": {
+    "async": "~0.2.9",
+    "lodash": "~2.2.1"
+  }
+}
